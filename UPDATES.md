@@ -30,7 +30,7 @@ The Highfield panel separates permission to deliver training and examinations fr
 
 ## Confirmation needed before changing existing facts
 
-The original “2+ Years, 4 Roles” summary, Katni location, availability labels, existing education grades, and all original employment wording remain unchanged. Please confirm any desired corrections separately. In particular, the experience summary should be reviewed after adding the Miracles role and technical internship.
+The experience summary was subsequently updated to “≈3 Years, 6 Roles” as of October 2026, counting all six listed roles and combining dated periods without double-counting overlaps. The current title is HSE Instructor throughout the website. Katni location, availability labels, existing education grades, and employment dates remain unchanged.
 
 No website publishing was performed. See `README.md` for completed checks and the browser/device checks still outstanding.
 

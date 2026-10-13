@@ -5,6 +5,7 @@ Static HTML/CSS/JavaScript portfolio hosted at https://mukuljagwani.github.io/MU
 ## Current site — 13 October 2026
 
 - Seven separate pages: `index.html`, `about.html`, `experience.html`, `skills.html`, `education.html`, `certifications.html`, and `contact.html`.
+- Role title is HSE Instructor throughout the website and homepage metadata. The homepage summary is approximately 3 years across 6 listed roles as of October 2026. Duration combines March 2023–April 2024 (14 months) and December 2024–October 2026 (approximately 22 months), counting overlapping months once. The technical internship overlaps the first period; the undated event role adds to the role count but not the duration.
 - Every page has the same navigation with its current page highlighted, plus Instagram and UAE telephone links in the footer. Both new contact methods also appear on the Contact page.
 - Removed the FTIS bonafide, original BCA certificate, and Highfield approval-letter View/Download controls. The BCA degree and Highfield tutor certificate remain. The duplicate PG diploma card is removed from Certifications; the diploma stays in Education.
 - Existing document files are retained in the repository. The selected removals apply to the displayed website links and card.
@@ -87,7 +88,7 @@ The HTML is **99.62% smaller** despite the additional records. The resource tota
 
 ## Details awaiting your confirmation
 
-- The original **“2+ Years, 4 Roles”** summary is unchanged. The new Miracles role and separate technical internship make its role count a point to review; no replacement total was invented.
+- The experience summary has since been updated to **“≈3 Years, 6 Roles”**, based on the dated experience and all six entries on the Experience page as of October 2026.
 - The original Katni location, map coordinates, “AVAILABLE FOR OPPORTUNITIES,” and “SYSTEM ONLINE / READY TO WORK” labels remain unchanged.
 - Existing employment and education wording, marks, dates, and certificate descriptions are preserved. The BCA degree is an additional document; the original “View Certificate” link still opens the supplied semester document.
 - No CV was supplied, so no Download CV button was added. No Training & Practical Work section or unsupported experience was invented.
