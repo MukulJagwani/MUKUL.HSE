@@ -1,6 +1,25 @@
-# Mukul Jagwani portfolio — updated website
+# Mukul Jagwani portfolio
 
-Complete static HTML/CSS/JavaScript website with the supplied missing documents added. It has not been published.
+Static HTML/CSS/JavaScript portfolio hosted at https://mukuljagwani.github.io/MUKUL.HSE/.
+
+## Current site — 13 October 2026
+
+- Seven separate pages: `index.html`, `about.html`, `experience.html`, `skills.html`, `education.html`, `certifications.html`, and `contact.html`.
+- Every page has the same navigation with its current page highlighted, plus Instagram and UAE telephone links in the footer. Both new contact methods also appear on the Contact page.
+- Removed the FTIS bonafide, original BCA certificate, and Highfield approval-letter View/Download controls. The BCA degree and Highfield tutor certificate remain. The duplicate PG diploma card is removed from Certifications; the diploma stays in Education.
+- Existing document files are retained in the repository. The selected removals apply to the displayed website links and card.
+- Old homepage section bookmarks redirect to their corresponding pages when JavaScript is enabled. Page navigation itself works without JavaScript.
+- Shared styling and interactions remain in `assets/css/site.css` and `assets/js/site.js`. No build or package installation is required.
+
+Local checks passed for all 141 relative links/assets, unique IDs, one H1/main per page, ARIA references, active navigation, and selected removals. Browser checks passed on all seven pages at desktop and 375px mobile widths, including mobile menu navigation, Escape/focus restoration, and the certificate image viewer. No horizontal overflow or JavaScript errors were observed.
+
+## Local preview
+
+Run `python -m http.server 4174 --bind 127.0.0.1` in this directory, then open http://127.0.0.1:4174/.
+
+The notes below describe the earlier single-page version and its original document import.
+
+---
 
 ## Open or upload
 

@@ -7,8 +7,7 @@
   const menuLabel = document.getElementById('menu-label');
   const mobile = window.matchMedia('(max-width: 63.999rem)');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const navAnchors = [...links.querySelectorAll('a[href^="#"]')];
-  const sections = navAnchors.map(link => document.getElementById(link.hash.slice(1))).filter(Boolean);
+  const navAnchors = [...links.querySelectorAll('a[href]')];
   let menuOpen = false;
 
   function updateNavHeight() {
@@ -52,13 +51,7 @@
   navAnchors.forEach(link => link.addEventListener('click', event => {
     if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     setMenu(false);
-    const section = document.getElementById(link.hash.slice(1));
-    const heading = section && section.querySelector('h1, h2');
-    if (heading) {
-      heading.setAttribute('tabindex', '-1');
-      heading.focus({ preventScroll: true });
-    }
-    // Let the browser update the hash and scroll so navigation also works without JS.
+    // Follow real page links natively, including when JavaScript is unavailable.
   }));
   if (mobile.addEventListener) mobile.addEventListener('change', syncNavigation);
   else mobile.addListener(syncNavigation);
@@ -67,30 +60,18 @@
   if ('ResizeObserver' in window) new ResizeObserver(updateNavHeight).observe(nav);
   window.addEventListener('resize', updateNavHeight, { passive: true });
 
-  // Active-section indication does not affect the native anchor behaviour.
-  let activeFrame = 0;
-  function updateActiveSection() {
-    activeFrame = 0;
-    const offset = (window.getComputedStyle(nav).position === 'sticky' ? nav.getBoundingClientRect().height : 0) + 110;
-    let current = sections[0];
-    for (const section of sections) {
-      if (section.getBoundingClientRect().top <= offset) current = section;
-    }
-    if (window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 3) current = sections[sections.length - 1];
-    navAnchors.forEach(link => {
-      if (current && link.hash === `#${current.id}`) link.setAttribute('aria-current', 'location');
-      else link.removeAttribute('aria-current');
-    });
+  // Preserve existing bookmarks to the former single-page sections.
+  const legacyPages = {
+    '#about': 'about.html', '#experience': 'experience.html',
+    '#skills': 'skills.html', '#education': 'education.html',
+    '#certifications': 'certifications.html', '#contact': 'contact.html'
+  };
+  function followLegacyBookmark() {
+    const destination = legacyPages[window.location.hash];
+    if (document.body.dataset.page === 'home' && destination) window.location.replace(destination);
   }
-  function requestActiveUpdate() {
-    if (!activeFrame) activeFrame = window.requestAnimationFrame(updateActiveSection);
-  }
-  window.addEventListener('scroll', requestActiveUpdate, { passive: true });
-  window.addEventListener('resize', requestActiveUpdate, { passive: true });
-  window.addEventListener('load', requestActiveUpdate);
-  window.addEventListener('hashchange', requestActiveUpdate);
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(requestActiveUpdate);
-  updateActiveSection();
+  followLegacyBookmark();
+  window.addEventListener('hashchange', followLegacyBookmark);
 
   // Only enhance image links when a native modal is available. PDFs and fallback
   // links remain ordinary files that can be opened, saved, or used without JS.
