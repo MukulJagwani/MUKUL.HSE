@@ -1,95 +1,27 @@
 # Mukul Jagwani portfolio
 
-Static HTML/CSS/JavaScript portfolio hosted at https://mukuljagwani.github.io/MUKUL.HSE/.
+Static HTML/CSS/JavaScript portfolio at https://mukuljagwani.github.io/MUKUL.HSE/.
 
-## Current site — 13 October 2026
+## Current content — 14 October 2026
 
-- Seven separate pages: `index.html`, `about.html`, `experience.html`, `skills.html`, `education.html`, `certifications.html`, and `contact.html`.
-- Role title is HSE Instructor throughout the website and homepage metadata. The homepage summary is approximately 3 years across 6 listed roles as of October 2026. Duration combines March 2023–April 2024 (14 months) and December 2024–October 2026 (approximately 22 months), counting overlapping months once. The technical internship overlaps the first period; the undated event role adds to the role count but not the duration.
-- Every page has the same navigation with its current page highlighted, plus Instagram and UAE telephone links in the footer. Both new contact methods also appear on the Contact page.
-- Removed the FTIS bonafide, original BCA certificate, and Highfield approval-letter View/Download controls. The BCA degree and Highfield tutor certificate remain. The duplicate PG diploma card is removed from Certifications; the diploma stays in Education.
-- Existing document files are retained in the repository. The selected removals apply to the displayed website links and card.
-- Old homepage section bookmarks redirect to their corresponding pages when JavaScript is enabled. Page navigation itself works without JavaScript.
-- Shared styling and interactions remain in `assets/css/site.css` and `assets/js/site.js`. No build or package installation is required.
+Seven pages share one stylesheet and script: Home, About, Experience, Skills, Education, Certifications and Contact. No build step or package installation is required.
 
-Local checks passed for all 141 relative links/assets, unique IDs, one H1/main per page, ARIA references, active navigation, and selected removals. Browser checks passed on all seven pages at desktop and 375px mobile widths, including mobile menu navigation, Escape/focus restoration, and the certificate image viewer. No horizontal overflow or JavaScript errors were observed.
+All seven pages and all 29 document files were reviewed for content consistency. See [CONTENT_REVIEW.md](CONTENT_REVIEW.md) for the complete evidence matrix, corrections, owner confirmations and remaining verification limits.
+
+- Current location: Abu Dhabi, UAE, confirmed by the owner. Katni remains in the school history.
+- Homepage experience summary: HSE since 2023. Experience lists five HSE entries and a separate technical internship, including overlapping and event-based roles.
+- FTIS is described using the source award: PG training programme and Assessment of Prior Learning.
+- BCA uses the correct plural title and distinguishes A+/8.32 CGPA from the grade card and First Division from the degree.
+- Certifications includes 20 document cards and a separate Highfield tutor approval panel. The 18 approved teaching qualifications are not counted as personally earned awards.
+- Original document files, photograph, design and interactions are preserved. Previously removed controls for the FTIS bonafide, BCA grade card and Highfield scope letter remain omitted from the public pages.
+- The ZIP at the repository root is an older archival package. Use the current HTML files and assets for deployment.
 
 ## Local preview
 
-Run `python -m http.server 4174 --bind 127.0.0.1` in this directory, then open http://127.0.0.1:4174/.
+Run `python -m http.server 4175 --bind 127.0.0.1` in this directory, then open http://127.0.0.1:4175/.
 
-The notes below describe the earlier single-page version and its original document import.
+For GitHub Pages, publish this directory with `index.html` at the site root and preserve relative asset paths. Google Fonts is optional; system fonts are the fallback.
 
----
+## Maintaining factual consistency
 
-## Open or upload
-
-1. Extract this ZIP and open `MUKULPORTFOLIO-main/index.html` locally.
-2. For static hosting, upload the **contents** of `MUKULPORTFOLIO-main` so `index.html` is at the document root. Preserve the `assets` directories.
-3. No build command, package installation, database, or server code is required.
-
-All local paths are relative, including for subdirectory hosting. Google Fonts is optional; system fonts are the fallback. PDF viewing and downloads may behave differently from local files and from static hosting.
-
-## Website improvements
-
-- Refined the black-and-safety-yellow identity, typography, opening section, cards, timeline, contact details, and footer.
-- Added accessible mobile navigation with Home, About, Experience, Skills, Education, Certifications, and Contact; active-section indication, keyboard controls, and header scroll offsets.
-- Added flexible layouts, wrapping text and contact links, narrow-screen and landscape rules, and controls sized for touch.
-- Extracted embedded images and documents into separate files. Documents load when opened or downloaded.
-- Added View and Download controls, plus an optional image modal with a labelled close control, Escape support, zoom, original-file fallback, and focus restoration.
-- Added semantic structure, a skip link, visible keyboard focus, readable secondary text, reduced-motion and forced-colour support.
-- Kept essential content, navigation, document links, and the Highfield approval details usable without JavaScript.
-- Added an MJ favicon and sharing title/description metadata using existing information.
-- Retained a single `index.html` after confirming the original two HTML files were byte-identical.
-
-## Animation update
-
-- Added a short, staggered entrance for the existing introduction and photograph, plus a brief two-cycle halo around the existing availability dot.
-- Added one-time scroll entrances for sections, cards, and credential headings, with a short yellow accent-line animation.
-- Added gentle mouse-hover card/button movement, pressed-button feedback, animated navigation underlines, and short menu and image-viewer entrances.
-- Kept movement smaller on narrow screens. Hover movement applies only to devices with a fine pointer and hover support.
-- Respected reduced-motion settings, including changes made while the page is open. Focused content stays still; content is never hidden while awaiting animation. There are no continuous animation loops or new dependencies.
-- Kept the entire homepage HTML, all photographs, and all document files byte-for-byte unchanged from the completed document update. Only CSS, JavaScript, and these supporting notes changed.
-
-## Latest document additions
-
-Reviewed **29 supplied documents**: **17 were missing**, and **12 already existed** with identical file hashes. See `UPDATES.md` for the additions and their website locations.
-
-The additions include the BCA degree, FTIS bonafide certificate, Miracles Enterprises experience, Bharat Intern virtual internship, Highfield tutor approval and its 18-qualification training scope, and 11 learning/participation records. The existing DRDO apprenticeship documents are now also linked from Experience. Existing ISO 45001 wording is retained, with the documented Lead Auditor Training Course, issuer, and issue date added.
-
-Certifications now has 21 learning/certificate cards and a separate tutor approval panel. Participation, pledges, assessment records, and tutor approval are labelled accurately; tutor approval is not presented as 18 qualifications personally earned.
-
-## Preservation and verification
-
-- All **191 original visible content chunks** and **227 text chunks from the previous revision** remain present.
-- All **13 unique original assets** (14 embedded references) retain their original SHA-256 hashes.
-- All **29 supplied documents** are included byte-for-byte and have viewing and downloading links.
-- All **77 internal references** resolve; **62 document links** and the four original contact/external destinations were checked.
-- One main landmark and one H1, unique IDs, image alternative text, and valid ARIA reference targets were checked.
-- The 18 Highfield approval scope entries match the reviewed source transcription.
-- Production JavaScript syntax passed. All 22 DOM-stub interaction checks passed, covering menu states, section selection, focus restoration, active-section logic, image viewer actions/fallbacks, one-time entrances, short stagger/cleanup, live reduced-motion changes, and focused-content/no-observer fallbacks. CSS delimiters were checked; CSS rendering was not tested.
-
-**Testing limits:** no supported browser preview was available. Visual rendering, actual screen-width overflow, real-device touch behaviour, native dialog focus containment, screen-reader output, live downloads, external link availability, and cross-browser performance have not been tested in a real browser. DOM-stub checks do not establish full WCAG conformance.
-
-Before publishing, check 320, 375, 430, 768, 1024, 1440, and 1920px widths; portrait/landscape; keyboard navigation; 200% text sizing and 400% browser zoom; JavaScript disabled; and reduced motion. Include available Chrome, Edge, Firefox, Safari, iOS, and Android browsers.
-
-## File sizes
-
-| Item | Bytes |
-| --- | ---: |
-| Original homepage HTML | 12,292,229 |
-| Updated homepage HTML | 46,595 |
-| Stylesheet | 26,262 |
-| JavaScript | 9,941 |
-| Original photograph | 76,613 |
-| HTML + CSS + JS + photograph | 159,411 |
-
-The HTML is **99.62% smaller** despite the additional records. The resource total excludes optional Google Fonts, the favicon, and HTTP overhead. Documents remain in the ZIP and load on demand. These are file-size measurements, not loading-time measurements or Lighthouse scores.
-
-## Details awaiting your confirmation
-
-- The experience summary has since been updated to **“≈3 Years, 6 Roles”**, based on the dated experience and all six entries on the Experience page as of October 2026.
-- The original Katni location, map coordinates, “AVAILABLE FOR OPPORTUNITIES,” and “SYSTEM ONLINE / READY TO WORK” labels remain unchanged.
-- Existing employment and education wording, marks, dates, and certificate descriptions are preserved. The BCA degree is an additional document; the original “View Certificate” link still opens the supplied semester document.
-- No CV was supplied, so no Download CV button was added. No Training & Practical Work section or unsupported experience was invented.
-- Canonical URL, `og:url`, and an absolute social-preview image URL await a confirmed live website address.
+Match credential names, dates, marks, course hours and award types to the original document. Distinguish completion or examination dates from certificate issue dates. Keep training approval separate from awards earned. Update all affected page text and sharing metadata together. Use owner confirmation for current employment, location and details that are not documented. Do not edit issued certificates to match website copy.
