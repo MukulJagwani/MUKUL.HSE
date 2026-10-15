@@ -13,8 +13,14 @@ All seven pages and all 29 document files were reviewed for content consistency.
 - FTIS is described using the source award: PG training programme and Assessment of Prior Learning.
 - BCA uses the correct plural title and distinguishes A+/8.32 CGPA from the grade card and First Division from the degree.
 - Certifications includes 20 document cards and a separate Highfield tutor approval panel. The 18 approved teaching qualifications are not counted as personally earned awards.
-- Original document files, photograph, design and interactions are preserved. Previously removed controls for the FTIS bonafide, BCA grade card and Highfield scope letter remain omitted from the public pages.
+- Original document files and photograph are preserved. Previously removed controls for the FTIS bonafide, BCA grade card and Highfield scope letter remain omitted from the public pages.
 - The ZIP at the repository root is an older archival package. Use the current HTML files and assets for deployment.
+
+## Home redesign — 15 October 2026
+
+Home now includes an industrial hero, wider About content, professional highlights, two on-demand promotional films, portfolio navigation and a CV contact section. A shared light palette and white navigation keep all seven pages consistent. The About page has wider reading space. Native certificate viewing and mobile navigation are retained.
+
+The original `assets/css/site.css` and `assets/js/site.js` provide the shared behaviour; `assets/css/refresh.css` adds the updated theme and Home layout, and `assets/js/home.js` coordinates film playback. See [MEDIA_NOTES.md](MEDIA_NOTES.md) for sources, video edits, captions and the pending CV.
 
 ## Local preview
 
