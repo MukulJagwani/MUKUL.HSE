@@ -23,3 +23,10 @@ All certificate files remain unchanged. Existing intentional omissions of three 
 - Added clearly labelled current learning areas for the owner-confirmed Qualifi Level 7 International Diploma in Occupational Health and Safety Management.
 - Added a matching Education entry marked in progress, with links between the two pages. No completion date or certificate is implied.
 - Preserved existing employment chronology, completed awards, document files and approved video edits. Evidence and qualification sources are recorded in CONTENT_REVIEW.md.
+
+## 15 October 2026 — New training video
+
+- Replaced the second promotional video with the owner-supplied `MUKUL TRAINING..mp4`, showing classroom instruction, harness demonstrations and a rescue tripod/winch setup.
+- Added an optimised, uncropped 720p H.264/AAC copy and a poster taken from the actual footage. The first introductory video remains unchanged.
+- Updated the section title, description, accessible play label, duration and fallback links. Retired the old second video, its poster and its unrelated caption track from the current website files; originals and Git history remain available.
+- Retained native controls, initially muted audio, on-demand loading and one-video-at-a-time playback.
