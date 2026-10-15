@@ -7,3 +7,12 @@ Updated current location to Abu Dhabi after owner confirmation; aligned FTIS wor
 Replaced the time-sensitive combined experience total with “HSE since 2023.” Clarified five HSE entries plus one technical internship and retained undated MCA work as event-based. Owner confirmed the Artha employment period and school result; no dates were invented.
 
 All certificate files remain unchanged. Existing intentional omissions of three document controls remain preserved. README now describes the current seven-page site rather than mixing superseded single-page instructions and historical verification claims.
+
+
+## 15 October 2026 — Home redesign
+
+- Added an industrial hero using the existing real portrait, expanded About content, professional highlights, portfolio links and a CV contact section.
+- Introduced consistent light styling and white navigation across all seven pages; widened the About page.
+- Added two optimised promotional films with posters, native controls and one-at-a-time playback. Removed unsupported scenes from the second film with owner approval; preserved the original files.
+- CV PDF is pending; the site uses a working request link until it is supplied.
+- See MEDIA_NOTES.md for the media source, edit record and automatic caption details.
