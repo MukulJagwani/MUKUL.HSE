@@ -18,7 +18,7 @@ All seven pages and all 29 document files were reviewed for content consistency.
 
 ## Home redesign — 15 October 2026
 
-Home now includes an industrial hero, wider About content, professional highlights, two on-demand promotional films, portfolio navigation and a CV contact section. A shared light palette and white navigation keep all seven pages consistent. The About page has wider reading space. Native certificate viewing and mobile navigation are retained.
+Home now includes an industrial hero, wider About content, professional highlights, an on-demand promotional introduction and a classroom/practical training video, portfolio navigation and a CV contact section. A shared light palette and white navigation keep all seven pages consistent. The About page has wider reading space. Native certificate viewing and mobile navigation are retained.
 
 The original `assets/css/site.css` and `assets/js/site.js` provide the shared behaviour; `assets/css/refresh.css` adds the updated theme and Home layout, and `assets/js/home.js` coordinates film playback. See [MEDIA_NOTES.md](MEDIA_NOTES.md) for sources, video edits, captions and the pending CV.
 
