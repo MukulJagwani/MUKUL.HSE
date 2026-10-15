@@ -16,3 +16,10 @@ All certificate files remain unchanged. Existing intentional omissions of three 
 - Added two optimised promotional films with posters, native controls and one-at-a-time playback. Removed unsupported scenes from the second film with owner approval; preserved the original files.
 - CV PDF is pending; the site uses a working request link until it is supplied.
 - See MEDIA_NOTES.md for the media source, edit record and automatic caption details.
+
+## 15 October 2026 — Qualification-aligned skills
+
+- Expanded Skills from six to nine cards, covering NEBOSH-based incident investigation and occupational health foundations, BCA computing and statistical topics, and the existing practical HSE strengths.
+- Added clearly labelled current learning areas for the owner-confirmed Qualifi Level 7 International Diploma in Occupational Health and Safety Management.
+- Added a matching Education entry marked in progress, with links between the two pages. No completion date or certificate is implied.
+- Preserved existing employment chronology, completed awards, document files and approved video edits. Evidence and qualification sources are recorded in CONTENT_REVIEW.md.

@@ -70,6 +70,17 @@ Links below point to the original document files already in the public repositor
 
 ## Validation
 
+### 15 October 2026 — Skills and ongoing study update
+
+- The owner confirmed that they are pursuing the **Qualifi Level 7 International Diploma in Occupational Health and Safety Management**. Skills and Education now describe it as in progress. No award, completed units, training centre, enrolment date or expected completion date is asserted; no enrolment document has been supplied.
+- Expanded NEBOSH-related knowledge areas using the [NEBOSH IGC learner guide, 2018 specification](https://www.nebosh.org.uk/documents/ig-syllabus-guide/igc-learner-guide-v3.2-en.pdf), appropriate to the award issued in March 2025. Added investigation/reporting principles, safety performance review, safe work systems, contractor safety principles and occupational health awareness. These are qualification-based foundations, not claims of specialist accreditation or completed professional investigations.
+- The BCA consolidated grade card specifically lists .NET Programming, Cyber Security, Regression Models and Stationary Processes and Time Series Analysis. Added computing and statistical foundations at that level; web development is also supported by the Bharat Intern certificate. Existing documentation, MS Office, data analysis and digital reporting claims are retained.
+- A separate current-study panel draws on themes in [Qualifi’s official programme overview](https://qualifi.net/qualifi-level-7-international-diploma-in-occupational-health-and-safety-management/): safety systems, strategic leadership, culture, sustainability, digital investigation and organisational risk. It describes learning focus, not completed competence or an awarded diploma. The precise unit version and completed modules have not been confirmed.
+- Prior approved film edits remain unchanged. The new confirmation supports current study, not the previously removed ambiguous experience figure or an awarded Level 7 qualification. CV PDF remains pending.
+- Update validation: all 179 relative page/asset references resolve; all 29 original document files remain byte-for-byte unchanged and all 18 approved tutor scope entries match. Skills and Education were checked at 1280px and 375px without horizontal overflow; both new cross-page anchor links work and the browser reported no JavaScript errors.
+
+### Original content audit checks
+
 - All seven pages passed structural checks: one H1 and main landmark, unique IDs, valid ARIA references and the correct active navigation entry.
 - All 143 relative page/asset references resolve locally; 26 document files remain linked from the pages, with the three earlier intentional link removals preserved.
 - All 29 original document files are byte-for-byte unchanged. All 18 Highfield scope entries match the source letter.

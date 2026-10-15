@@ -47,6 +47,18 @@ body[data-page="about"] #about { padding-block: 4.5rem 6rem; }
 .about-focus h2 { font: 600 1.25rem/1.5 "Poppins", sans-serif; margin-bottom: 1rem; }
 @media (min-width: 58rem) { body[data-page="about"] .about-grid { grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: clamp(2.5rem, 5vw, 5rem); align-items: start; } }
 
+/* Skills: separate practical foundations from current study areas. */
+.skills-intro { max-width: 66rem; font-size: 1rem; line-height: 1.85; color: var(--text-dim); margin-bottom: 1rem; }
+.skills-intro strong { color: var(--text); }
+#skills > .document-note { margin-bottom: 1.5rem; }
+.skill-card .skill-basis { font-size: .8rem; line-height: 1.7; color: var(--text-mute); margin: -.3rem 0 1.1rem; }
+.study-focus { margin-top: 2rem; padding: clamp(1.3rem, 4vw, 2.5rem); background: #fbf6e8; border: 1px solid #e2d4aa; border-top: 3px solid #b38300; border-radius: .7rem; }
+.study-focus h2 { font: 600 clamp(1.3rem, 2.5vw, 1.8rem)/1.4 "Poppins", sans-serif; margin-bottom: 1rem; }
+.study-focus > p:not(.eyebrow) { max-width: 58rem; color: var(--text-dim); font-size: .94rem; line-height: 1.85; margin-bottom: 1.3rem; }
+.study-focus .skill-tag { background: #fff; }
+.study-focus .text-link { margin-top: 1rem; }
+#qualifi-study, #study-focus-title { scroll-margin-top: 7rem; }
+
 /* Home: industrial portrait, editorial content, two on-demand films. */
 .home-container { width: 100%; max-width: var(--max); margin-inline: auto; padding-inline: var(--gutter); }
 .portfolio-hero { position: relative; isolation: isolate; color: #fff; background: #182a34 url('../images/industrial-background.jpg') center 56% / cover no-repeat; }
