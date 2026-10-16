@@ -1,6 +1,6 @@
 # Portfolio media
 
-Updated 15 October 2026.
+Updated 16 October 2026.
 
 ## Original sources
 
@@ -11,7 +11,7 @@ The owner supplied the original promotional montages and subsequently supplied `
 | WhatsApp Video 2026-10-14 at 21.22.45 (1).mp4 | assets/videos/safety-leadership.mp4 | Full video, H.264/AAC, CRF 24, 96 kbit/s audio, fast-start MP4. |
 | MUKUL TRAINING..mp4 | assets/videos/mukul-hse-training.mp4 | Full 47.32-second video and original audio, no cropping or scene removal. Converted from 1920 × 1080 at 50 fps to 1280 × 720 at 25 fps; H.264/AAC, CRF 23, 96 kbit/s audio, fast-start MP4. |
 
-The first video remains a promotional introduction. The second is presented as classroom and practical training highlights: it visibly shows instruction, harness demonstrations, and a rescue tripod and winch setup. The new poster is a frame at 26 seconds from that footage. No event date, learner total, qualification award or performance outcome is inferred from it. The existing real portrait is used in the hero, unchanged.
+The first video remains a promotional introduction. The second is presented as classroom and practical training highlights: it visibly shows instruction, harness demonstrations, and a rescue tripod and winch setup. Its poster is the owner's supplied “Safety in Action” cover, used unchanged as `assets/images/film-hse-training-cover.png` (1920 × 1080, 888,035 bytes). This replaces the previously extracted frame at 26 seconds. No event date, learner total, qualification award or performance outcome is inferred from it. The existing real portrait is used in the hero, unchanged.
 
 Local automatic speech recognition with voice-activity filtering detected no speech in the new training video. No dialogue transcript is asserted. The adjacent description explains the visible activity. The previous second video's caption track was removed because it does not describe this recording. No speech was detected in the first film during its original review. Manual audio transcription has not been performed.
 

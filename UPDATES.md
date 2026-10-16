@@ -30,3 +30,9 @@ All certificate files remain unchanged. Existing intentional omissions of three 
 - Added an optimised, uncropped 720p H.264/AAC copy and a poster taken from the actual footage. The first introductory video remains unchanged.
 - Updated the section title, description, accessible play label, duration and fallback links. Retired the old second video, its poster and its unrelated caption track from the current website files; originals and Git history remain available.
 - Retained native controls, initially muted audio, on-demand loading and one-video-at-a-time playback.
+
+## 16 October 2026 — Training video cover
+
+- Set the owner's supplied “Safety in Action” artwork as the cover for the new classroom and practical training video, preserving its full 16:9 layout.
+- Made the full cover an accessible play button, using the play symbol already present in the artwork. Native video controls appear when playback starts.
+- The video files, first film's poster, captions and one-at-a-time playback remain unchanged.
