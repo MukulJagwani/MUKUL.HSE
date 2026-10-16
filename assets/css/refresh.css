@@ -127,6 +127,9 @@ main > .home-section { max-width: none; padding: 5.5rem 0; }
 .film-stage video { display: block; width: 100%; height: 100%; object-fit: contain; color-scheme: dark; }
 .film-play { position: absolute; left: 50%; top: 46%; transform: translate(-50%,-50%); width: 3.75rem; height: 3.75rem; display: grid; place-items: center; border: 1px solid #f8dc88; border-radius: 50%; background: #f4c23a; color: #18242b; box-shadow: 0 3px 20px #0005; }
 .film-play span { margin-left: .2rem; font-size: 1.1rem; }
+.film-play-cover { inset: 0; transform: none; width: 100%; height: 100%; padding: 0; border: 0; border-radius: 0; box-shadow: none; overflow: hidden; }
+.film-play-cover img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.film-play-cover:focus-visible { outline: 3px solid #fff; outline-offset: -6px; }
 .film-card figcaption { padding: 1.6rem 1.7rem 1.8rem; }
 .film-kicker { display: flex; justify-content: space-between; gap: 1rem; color: #657078; font: 600 .63rem/1.5 "Manrope",sans-serif; letter-spacing: .08em; margin-bottom: .75rem; }
 .film-card h3 { font: 600 1.18rem/1.5 "Poppins",sans-serif; letter-spacing: -.025em; margin-bottom: .6rem; }
